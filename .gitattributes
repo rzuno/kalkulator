@@ -1,0 +1,6 @@
+# Preserve the exact bytes of released artifacts and their checksums.
+* -text
+/README.md text eol=lf
+/CATALOG.json text eol=lf
+/.gitignore text eol=lf
+/.gitattributes text eol=lf

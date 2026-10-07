@@ -1,0 +1,9 @@
+# This repository starts with an explicit publication allowlist.
+# Before a release, admit only reviewed artifact paths and their parent directories.
+# Never allow an entire private workspace, or use force-add to bypass this policy.
+# Ignore rules are a convenience; inspect every staged file and its contents.
+*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/CATALOG.json
